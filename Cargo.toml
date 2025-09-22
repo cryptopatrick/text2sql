@@ -1,0 +1,27 @@
+[package]
+name = "text2sql"
+version = "0.1.0"
+edition = "2024"
+authors = ["CryptoPatrick <cryptopatrick@gmail.com>"]
+
+###############################################################################
+description = ""Convert natural language queries into sql.""
+documentation = "https://docs.rs/text2sql"
+homepage = "https://github.com/cryptopatrick/text2sql"
+repository = "https://github.com/cryptopatrick/text2sql"
+readme = "README.md"
+keywords = ["<KEYWORD1>", "<KEYWORD2>" ]
+license = "MIT"
+autotests = false
+
+###############################################################################
+[lib]
+name = "text2sql"
+path = "src/lib.rs"
+
+[[test]]
+name = "tests"
+path = "tests/test.rs"
+
+###############################################################################
+[dependencies]
